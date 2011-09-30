@@ -1,4 +1,18 @@
 Footworlds::Application.routes.draw do
+  get "home/index"
+
+  get "home/contact"
+
+  get "home/about"
+
+  get "home/blog"
+
+  get "home/faq"
+
+  get "home/termsofuse"
+
+  get "home/privacystatement"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
